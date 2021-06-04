@@ -31,8 +31,6 @@ public class vehiculo {
 	
 	public void cancelacion(ViajesRealizados viaje) {
 		this.viajes.remove(viaje);
-		viajes.remove(new ViajesRealizados("Orizaba","Norte 8",LocalDate.of(2012, 02, 12),LocalDate.of(2012, 03, 10)
-				,"Carbon",1200F));
 	}
 	
 	
